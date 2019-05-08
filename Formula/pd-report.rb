@@ -2,9 +2,9 @@
 class PdReport < Formula
   desc "Get a report of oncall rotations from your PagerDuty account"
   homepage "https://github.com/form3tech-oss/go-pagerduty-oncall-report/"
-  url "https://github.com/form3tech-oss/go-pagerduty-oncall-report/releases/download/v1.3.2/pd-report_1.3.2_darwin_amd64.tar.gz"
-  version "1.3.2"
-  sha256 "2e2e08a2b7ad96710d7ed068c9bbea266c03f688d8dd2796b88a963e15a5e4df"
+  url "https://github.com/form3tech-oss/go-pagerduty-oncall-report/releases/download/v1.3.4/pd-report_1.3.4_darwin_amd64.tar.gz"
+  version "1.3.4"
+  sha256 "b413136284ca9937556203fb8d1e427b5aa61abc494bb07c03036fb60bc7cdb6"
 
   def install
     bin.install "pd-report"
